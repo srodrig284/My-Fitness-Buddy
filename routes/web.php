@@ -18,3 +18,6 @@ Route::get('/meals', 'PagesController@meals');
 
 Route::get('/allmeals', 'PagesController@allmeals');
 
+Route::get('/home', 'PagesController@home');
+
+

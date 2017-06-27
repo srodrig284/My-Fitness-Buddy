@@ -12,6 +12,12 @@ class PagesController extends Controller
         return view('pages.index')->with('title', $title);
     }
 
+    public function home(){
+        $title = 'Home Page';
+        /*return view('pages.index', compact('title'));*/
+        return view('home.index')->with('title', $title);
+    }
+
     public function meals(){
         $title = 'Todays Meals';
         return view('pages.meals')->with('title', $title);
