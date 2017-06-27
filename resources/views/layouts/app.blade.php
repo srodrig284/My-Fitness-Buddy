@@ -10,7 +10,7 @@
 
     {{--<title>My Fitness Buddy</title>--}}
     {{--<title>{{ $title }}</title>--}}
-    <title>{{config('app.name', 'MyFitnessBuddy')}}</title>
+    <title>{{config('app.name', 'My Fitness Buddy')}}</title>
 
 
     <!-- Styles -->
