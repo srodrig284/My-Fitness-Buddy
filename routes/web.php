@@ -14,3 +14,7 @@
 
 Route::get('/', 'PagesController@index');
 
+Route::get('/meals', 'PagesController@meals');
+
+Route::get('/allmeals', 'PagesController@allmeals');
+
